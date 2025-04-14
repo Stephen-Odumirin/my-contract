@@ -6,64 +6,8 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					}
-				],
-				"name": "addValue",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "array",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "array2D",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [],
-				"name": "countValues",
+				"name": "countEvenNumbers",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -78,38 +22,19 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "_number",
 						"type": "uint256"
 					}
 				],
-				"name": "intArry",
+				"name": "isEven",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "bool",
 						"name": "",
-						"type": "uint256"
+						"type": "bool"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "stringArray",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -141,11 +66,11 @@
 	},
 	"sources": {
 		"contracts/my_contract.sol": {
-			"keccak256": "0x5ac306f2ed82609003bff3c85c920ce6ee6fad2b8f19ca7498090771a0f96e7e",
+			"keccak256": "0xb2534e6c12153c860d81cd2bdac133f64bf26a7615e7c4f568481473596cfd6f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b2d9bf6c8ae39af0b7872c9badbfb1c026368800d9e32bda955c0b819d2efc72",
-				"dweb:/ipfs/QmSxDvH1vDmLCjhLDYGiDaDjN8xCdVXDUA5MGqdNqSy1Dz"
+				"bzz-raw://09b24d133b42c60d691d2f76ec66f1e2ca66eb54ea3f815043ee83ef0fe20010",
+				"dweb:/ipfs/QmaQntQ75XxaYCNJebV3vsKdvE8wDCuSwakjNY2eiiEVWx"
 			]
 		}
 	},

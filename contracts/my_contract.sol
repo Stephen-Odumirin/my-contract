@@ -17,17 +17,68 @@ contract MyContract {
 
     // MyStruct public mystruct = MyStruct("Stephen", 24);
 
-   uint[] public intArry = [1,2,3];
-   string[] public stringArray = ["Apple", "Orange", "Banana"];
-   uint[][] public array2D = [[1,2,3], [4,5,6],[7,8,9]];
-   string[] public array;
+//    uint[] public intArry = [1,2,3];
+//    string[] public stringArray = ["Apple", "Orange", "Banana"];
+//    uint[][] public array2D = [[1,2,3], [4,5,6],[7,8,9]];
+//    string[] public array;
 
-   function addValue(string memory name) public {
-    array.push(name);
-   }
+//    function addValue(string memory name) public {
+//     array.push(name);
+//    }
 
-   function countValues() public view returns(uint){
-    return array.length;
-   }
+//    function countValues() public view returns(uint){
+//     return array.length;
+//    }
+
+    // mapping (uint => string) public names;
+
+    // constructor () {
+    //     names[1] = "Stephen";
+    //     names[2] = "Precious";
+    //     names[3] = "God'sFavour";
+    //     names[4] = "Shalom";
+    // }
+
+    // mapping (uint => Book) public myBooks;
+    // mapping (address => mapping (uint => Book)) public theBooks;
+
+    // struct Book {
+    //     string title;
+    //     string author;
+    // }
+
+    // function addBook (
+    //     uint id, 
+    //     string memory _title, 
+    //     string memory _author
+    // )  public {
+    //     myBooks[id] = Book(_title, _author);
+    // }
+
+    // function addMyBook(uint id, string memory _title, string memory _author) public {
+    //     theBooks[msg.sender][id] = Book(_title, _author);
+    // }
+
+    // uint[] numbers = [1,2,3,4,5,6,7,8,9,10];
+
+    // function countEvenNumbers() public view returns (uint){
+    //     uint count = 0;
+    //     for (uint i = 0; i < numbers.length; i++){
+    //         if(isEven(numbers[i])){
+    //             count++;
+    //         }
+    //     }
+    //     return count;
+    // }
+
+    // function isEven(uint _number) public pure returns (bool) {
+    //     if(_number % 2 == 0){
+    //         return true;
+    //     }else{
+    //         return false;
+    //     }
+    // }
+
+    
    
 }
